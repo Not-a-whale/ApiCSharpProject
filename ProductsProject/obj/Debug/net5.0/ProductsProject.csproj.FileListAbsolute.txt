@@ -83,3 +83,5 @@ C:\Users\sabao\source\repos\ProductsProject\ProductsProject\bin\Debug\net5.0\Cor
 C:\Users\sabao\source\repos\ProductsProject\ProductsProject\bin\Debug\net5.0\Infrastructure.dll
 C:\Users\sabao\source\repos\ProductsProject\ProductsProject\bin\Debug\net5.0\Infrastructure.pdb
 C:\Users\sabao\source\repos\ProductsProject\ProductsProject\bin\Debug\net5.0\Core.pdb
+C:\Users\sabao\source\repos\ProductsProject\ProductsProject\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\sabao\source\repos\ProductsProject\ProductsProject\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

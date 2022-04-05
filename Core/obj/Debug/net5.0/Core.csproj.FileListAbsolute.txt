@@ -7,6 +7,6 @@ C:\Users\sabao\source\repos\ProductsProject\Core\bin\Debug\net5.0\Core.deps.json
 C:\Users\sabao\source\repos\ProductsProject\Core\bin\Debug\net5.0\Core.dll
 C:\Users\sabao\source\repos\ProductsProject\Core\bin\Debug\net5.0\Core.pdb
 C:\Users\sabao\source\repos\ProductsProject\Core\obj\Debug\net5.0\Core.dll
-C:\Users\sabao\source\repos\ProductsProject\Core\obj\Debug\net5.0\refint\Core.dll
 C:\Users\sabao\source\repos\ProductsProject\Core\obj\Debug\net5.0\Core.pdb
 C:\Users\sabao\source\repos\ProductsProject\Core\obj\Debug\net5.0\ref\Core.dll
+C:\Users\sabao\source\repos\ProductsProject\Core\obj\Debug\net5.0\refint\Core.dll

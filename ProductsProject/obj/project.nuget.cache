@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "aCVwSk0iC+iSm3DrIDp+Xp2/u8+cWTx8spCyPjo3hsSaJ6kpVqZSPts+K9Kqs3z14PjHHU29qt30tFYU6imtKQ==",
+  "dgSpecHash": "Ah3WznHgRbCUiiZgsRqCz10P15kO6ZSSRLw0jdJiFPIX0LS1fxJLb9kHPwl0sIHWYODEPFrTlvY/100+h5TjWw==",
   "success": true,
   "projectFilePath": "C:\\Users\\sabao\\source\\repos\\ProductsProject\\ProductsProject\\ProductsProject.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\sabao\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
+    "C:\\Users\\sabao\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.0.0\\automapper.extensions.microsoft.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\sabao\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\sabao\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\sabao\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
@@ -120,5 +122,16 @@
     "C:\\Users\\sabao\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\sabao\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "ProductsProject depends on AutoMapper.Extensions.Microsoft.DependencyInjection (>= 5.6.3) but AutoMapper.Extensions.Microsoft.DependencyInjection 5.6.3 was not found. An approximate best match of AutoMapper.Extensions.Microsoft.DependencyInjection 6.0.0 was resolved.",
+      "libraryId": "AutoMapper.Extensions.Microsoft.DependencyInjection",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
