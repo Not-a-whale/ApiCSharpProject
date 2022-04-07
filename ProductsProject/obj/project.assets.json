@@ -6445,7 +6445,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 5.6.3",
+      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 6.0.0",
       "Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.5",
@@ -6507,7 +6507,7 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
-            "version": "[5.6.3, )"
+            "version": "[6.0.0, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -6559,17 +6559,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "ProductsProject depends on AutoMapper.Extensions.Microsoft.DependencyInjection (>= 5.6.3) but AutoMapper.Extensions.Microsoft.DependencyInjection 5.6.3 was not found. An approximate best match of AutoMapper.Extensions.Microsoft.DependencyInjection 6.0.0 was resolved.",
-      "libraryId": "AutoMapper.Extensions.Microsoft.DependencyInjection",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ah3WznHgRbCUiiZgsRqCz10P15kO6ZSSRLw0jdJiFPIX0LS1fxJLb9kHPwl0sIHWYODEPFrTlvY/100+h5TjWw==",
+  "dgSpecHash": "VkgpnfiAACckdDvdvYbUzaqjaUjLjCyY5WQwUnJAk/7FGumno2c/PV2ZzftCQPsl2WoMBpE61Siuvq/iPCUQwA==",
   "success": true,
   "projectFilePath": "C:\\Users\\sabao\\source\\repos\\ProductsProject\\ProductsProject\\ProductsProject.csproj",
   "expectedPackageFiles": [
@@ -122,16 +122,5 @@
     "C:\\Users\\sabao\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\sabao\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "ProductsProject depends on AutoMapper.Extensions.Microsoft.DependencyInjection (>= 5.6.3) but AutoMapper.Extensions.Microsoft.DependencyInjection 5.6.3 was not found. An approximate best match of AutoMapper.Extensions.Microsoft.DependencyInjection 6.0.0 was resolved.",
-      "libraryId": "AutoMapper.Extensions.Microsoft.DependencyInjection",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }
