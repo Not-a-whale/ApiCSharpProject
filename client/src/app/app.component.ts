@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
-import {IProduct} from "./models/product";
-import {IPagination} from "./models/pagination";
+import {IProduct} from "./shared/models/product";
+import {IPagination} from "./shared/models/pagination";
 
 @Component({
   selector: 'app-root',
@@ -16,10 +16,6 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.http.get('https://localhost:5001/api/Products?pageSize=50').subscribe((response: IPagination) => {
-      this.products = response?.data
-    }, error => {
-      console.log(error);
-    })
+
   }
 }
