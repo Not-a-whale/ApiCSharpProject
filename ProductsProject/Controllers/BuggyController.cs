@@ -21,6 +21,7 @@ namespace ProductsProject.Controllers
             {
                 return NotFound(new ApiResponse(404));
             }
+
             return Ok();
         }
 
@@ -37,14 +38,12 @@ namespace ProductsProject.Controllers
         [HttpGet("badrequest")]
         public ActionResult GetBadRequest()
         {
-
             return BadRequest(new ApiResponse(400));
         }
 
         [HttpGet("badrequest/{id}")]
         public ActionResult GetNotFoundBadRequest(int id)
         {
-
             return BadRequest();
         }
     }

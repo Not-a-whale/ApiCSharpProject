@@ -17,7 +17,9 @@ namespace ProductsProject.Middleware
         private RequestDelegate _next;
 
 
-        public ExceptionMiddleware(RequestDelegate next, ILogger<ExceptionMiddleware> logger,
+        public ExceptionMiddleware(
+            RequestDelegate next,
+            ILogger<ExceptionMiddleware> logger,
             IHostEnvironment env)
         {
             _env = env;

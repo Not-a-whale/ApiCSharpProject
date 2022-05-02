@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VkgpnfiAACckdDvdvYbUzaqjaUjLjCyY5WQwUnJAk/7FGumno2c/PV2ZzftCQPsl2WoMBpE61Siuvq/iPCUQwA==",
+  "dgSpecHash": "+NVFGd5JlCuNZFwZYTFI2Lr65X6tCyxWPLGAxbqWqK115j6TsoTpfDcVu2gaFru0G6KW6ejTApOzGVQ8lLfP3A==",
   "success": true,
   "projectFilePath": "C:\\Users\\sabao\\source\\repos\\ProductsProject\\ProductsProject\\ProductsProject.csproj",
   "expectedPackageFiles": [
@@ -50,6 +50,7 @@
     "C:\\Users\\sabao\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\sabao\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\sabao\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.4\\sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
+    "C:\\Users\\sabao\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512",
     "C:\\Users\\sabao\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\sabao\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\sabao\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",

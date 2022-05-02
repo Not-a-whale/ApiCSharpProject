@@ -1,11 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Infrastructure.Data;
-using Core.Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Infrastructure.Data;
+using Core.Entities;
 using Core.Interfaces;
 using Core.Specifications;
 using Infrastructure.Data.Dtos;
@@ -23,7 +23,7 @@ namespace ProductsProject.Controllers
         private readonly IGenericRepository<ProductType> _productTypeRepo;
         private readonly IMapper _mapper;
 
-        public ProductsController(IGenericRepository<Product> productsRepo, 
+        public ProductsController(IGenericRepository<Product> productsRepo,
             IGenericRepository<ProductBrand> ProductBrandRepo,
             IGenericRepository<ProductType> productTypeRepo,
             IMapper mapper)
@@ -61,7 +61,7 @@ namespace ProductsProject.Controllers
 
             var product = await _productsRepo.GetEntityWithSpec(spec);
 
-            if(product == null)
+            if (product == null)
             {
                 return NotFound(new ApiResponse(404));
             }

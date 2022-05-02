@@ -27,6 +27,5 @@ namespace ProductsProject.Errors
                 _ => null
             };
         }
-
     }
 }
