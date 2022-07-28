@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Core",
-    "\\Core\\Interfaces",
-    "\\Infrastructure",
-    "\\Infrastructure\\Data",
-    "\\Infrastructure\\Data\\Migrations"
+    "\\ProductsProject"
   ],
-  "SelectedNode": "\\Infrastructure\\Data\\ProductRepository.cs",
+  "SelectedNode": "\\ProductsProject\\ProductsProject.csproj",
   "PreviewInSolutionExplorer": false
 }

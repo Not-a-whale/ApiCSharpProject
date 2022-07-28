@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Data",
+      "appliesTo": "Infrastructure/Data/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-ProductsProject",
+      "appliesTo": "ProductsProject/",
+      "type": "launch"
+    }
+  ]
+}

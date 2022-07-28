@@ -8,6 +8,7 @@ using ProductsProject.Helpers;
 using AutoMapper;
 using ProductsProject.Middleware;
 using ProductsProject.Extensions;
+using StackExchange.Redis;
 
 namespace ProductsProject
 {
@@ -27,6 +28,11 @@ namespace ProductsProject
 
             services.AddDbContext<StoreContext>(x => x.UseSqlite(_config.GetConnectionString("DefaultConnection")));
 
+            services.AddSingleton<IConnectionMultiplexer, ConnectionMultiplexer>(c =>
+            {
+                var configuration = ConfigurationOptions.Parse(_config.GetConnectionString("Redis"), true);
+                return ConnectionMultiplexer.Connect(configuration);
+            });
             services.AddApplicationServices();
             services.AddSwaggerDocumentation();
             services.AddCors(opt => {
